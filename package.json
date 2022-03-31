@@ -1,0 +1,22 @@
+{
+    "name": "chatbox",
+    "version": "1.0.0",
+    "description": "Real Time Chat app with Rooms",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server",
+        "build": "react-scripts build"
+    },
+    "author": "Rizk",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3",
+        "moment": "^2.29.1",
+        "react-scripts": "^5.0.0",
+        "socket.io": "^4.4.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
